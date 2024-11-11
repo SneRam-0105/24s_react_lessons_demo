@@ -5,16 +5,14 @@
   text-align: center;
 }
 
-main {
+#people {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-.card {
-background-color: #eee;
-padding: 1rem;
-box-shadow: 0 0 5px #333;
-border-radius: 5px;
-width: 200px;
+button {
+  margin-bottom: 5px;
+  background-color: black;
+  margin: 10px;
 }
