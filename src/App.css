@@ -1,8 +1,16 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 2rem;
   text-align: center;
+}
+
+#header {
+  margin-bottom: 5px;
+  background-color: bisque;
+  margin: 10px;
 }
 
 #people {
@@ -11,8 +19,8 @@
   gap: 1rem;
 }
 
-button {
+/* button {
   margin-bottom: 5px;
-  background-color: black;
+  background-color: bisque;
   margin: 10px;
-}
+} */

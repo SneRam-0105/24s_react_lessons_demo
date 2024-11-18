@@ -5,7 +5,14 @@ import './PeopleCards.css'
 
 const PeopleCards = ({ props }) => {
 
+    const handleClick = (id) => {
+        console.log("I was clicked", id)
+    }
+
     if (props) {
+
+
+
         return personsData.map((person) => (
 
             <Card key={person.id}
@@ -13,6 +20,7 @@ const PeopleCards = ({ props }) => {
                 title={person.title}
                 age={person.age}
                 animal={person.animal}
+                click={() => handleClick(person.id)}
 
             />
 
