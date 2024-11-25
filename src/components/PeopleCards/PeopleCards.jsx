@@ -1,4 +1,4 @@
-import Card from '../../Card'
+import Card from '../Card'
 import personsData from "../../data/personData";
 import './PeopleCards.css'
 
