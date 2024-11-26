@@ -1,26 +1,40 @@
 #root {
-  max-width: 1280px;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2rem;
   text-align: center;
 }
 
-#header {
-  margin-bottom: 5px;
-  background-color: bisque;
-  margin: 10px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: orchid;
+  color: salmon;
 }
 
-#people {
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-/* button {
-  margin-bottom: 5px;
-  background-color: bisque;
-  margin: 10px;
-} */
+.card {
+  background-color: #eee;
+  padding: 1rem;
+  box-shadow: 0 0 5px #333;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px #5faad9;
+  cursor: pointer;
+}

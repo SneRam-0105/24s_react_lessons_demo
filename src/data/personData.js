@@ -1,42 +1,42 @@
 const persons = [
     {
         id: 1,
-        firstName: "Margit",
+        firstName: "Sneha",
         title: "CEO",
-        age: "29",
-        animal: "fox"
+        age: "25",
+        animal: "Lion"
     },
 
     {
         id: 2,
-        firstName: "Karin",
+        firstName: "Ruth",
         title: "Designer",
-        age: "45",
-        animal: "fox"
+        age: "26",
+        animal: "Tiger"
     },
 
     {
         id: 3,
-        firstName: "Kati",
+        firstName: "Steffi",
         title: "Developer",
-        age: "25",
+        age: "27",
         animal: "fox"
     },
 
     {
         id: 4,
-        firstName: "John",
+        firstName: "Shital",
         title: "Developer",
-        age: "25",
+        age: "27",
         animal: "fox"
     },
 
     {
         id: 5,
-        firstName: "Jane",
+        firstName: "Krishna",
         title: "Developer",
-        age: "25",
-        animal: "fox"
+        age: "28",
+        animal: "Cheetah"
     },
 ]
 

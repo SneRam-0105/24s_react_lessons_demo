@@ -14,7 +14,7 @@ const List = () => {
         <div>
             <main>
                 <>
-                    <h2>Employees</h2>
+                    <h2>Employee Data</h2>
                     <div className="list">
 
                         {personData.map((person) => (
