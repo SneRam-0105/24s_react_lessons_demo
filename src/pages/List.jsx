@@ -1,11 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import Card from "../components/Card";
-import personData from "../data/personData"
-import './PeopleCards.css'
+import personData from "../data/personData";
+
+
 
 
 const List = () => {
 
-
+    const navigate = useNavigate();
+    const handleNavigate = (id) => {
+        navigate(`/${id}`);
+    };
 
 
 
@@ -24,7 +29,7 @@ const List = () => {
                                 title={person.title}
                                 age={person.age}
                                 animal={person.animal}
-
+                                onClick={() => handleNavigate(person.id)}
                             />
                         ))}
                     </div>

@@ -20,7 +20,7 @@ const persons = [
         firstName: "Steffi",
         title: "Developer",
         age: "27",
-        animal: "fox"
+        animal: "Giraffe"
     },
 
     {

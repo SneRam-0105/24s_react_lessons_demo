@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Button from './Button'
 
-function Card({ firstName, title, age, animal }) {
+function Card({ firstName, title, age, animal, onClick }) {
 
   const [animalValue, setAnimalValue] = useState(animal);
 
@@ -25,7 +25,8 @@ function Card({ firstName, title, age, animal }) {
       )
       }
 
-      <Button onClick={toggleEdit} text={isEditing ? "Save" : "Edit"} />
+      <Button variant="secondary" onClick={toggleEdit} text={isEditing ? "Save" : "Edit Animal"} />
+      <Button text="See More" onClick={onClick} />
     </div>
   );
 }

@@ -27,11 +27,12 @@ main {
 }
 
 .card {
-  background-color: #eee;
+  background-color: lightgreen;
   padding: 1rem;
   box-shadow: 0 0 5px #333;
   border-radius: 5px;
   width: 200px;
+  margin-top: 20px;
 }
 
 .card:hover {
